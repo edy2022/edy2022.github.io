@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="estilos.css">
+    <title>Futbol</title>
+
+  </head>
+  <body>
+    <div id="container">
+      <header>
+          <img class="img1" src="imagenes/img.jpg" width="706" height="100">
+      </header>
+      <div class="menu">
+        <ul>
+          <li>Equipos</li>
+          <li>|</li>
+          <li>Estadios</li>
+          <li>|</li>
+          <li>Convocatorias</li>
+
+        </ul>
+      </div>
+      <section class="txt">
+        <img class="img2" src="imagenes/futbol.jpg" width="100" height="100">
+        <h2>Futbol</h2>
+        <p class="texto">El fútbol o futbol es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno y algunos árbitros que se ocupan de que las normas se cumplan correctamente </p>
+
+      </section>
+      <section class="seg">
+        <img class="img3" src="imagenes/balon.jpg" width="130" height="120">
+          <h3>Ronaldinho Gaucho</h3>
+          <p class="ronal">Ronaldo de Assis Moreira, conocido deportivamente como Ronaldinho, es un exjugador de fútbol brasileño nacionalizado español. Es mundialmente reconocido como uno de los talentos más grandes en la historia de dicho deporte.  </p>
+      </section>
+      <div class="registro">
+          <h4>Registro</h4>
+
+      </div>
+      <div class="jh">
+        <form id="login" action="#" method="post" >
+                   <p><label class="nom" for="nombre">Nombre:</label></p>
+                       <input class="l0" name="nombre" type="text" id="nombre" class="nombre" placeholder="Ingrese su Nombre" autofocus=""/ ></p>
+
+                   <p><label class="ape" for="apellidos">Apellidos:</label></p>
+                       <input class="l1" name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Ingresar Apellidos" /></p>
+                   <!--=============================================================================================-->
+
+                   <p><label class="cor" for="correo">Nacionlidad:</label></p>
+                       <input class="l2" name="correo" type="text" id="correo" class="correo" placeholder="Nacionalidad" /></p>
+
+                   <p><label class="con" for="pass">Posicion:</label></p>
+                       <input class="l3" name="pass" type="password" id="pass" class="pass" placeholder="Posicion"/ ></p>
+
+                   <p class="tra"><label class="rep" for="repass">Equipo</label></p>
+                       <input class="l4" name="repass" type="password" id="repass" class="repass" placeholder="Equipo" /></p>
+
+                   <p id="bot"><input name="submit" type="submit" id="boton" value="Guardar" class="boton"/></p>
+               </form>
+
+      </div>
+      <div class="ul">
+        <h5>Contacto</h5>
+        <h6>edy20@hotmail.com</h6>
+
+      </div>
+    </div>
+
+  </body>
+</html>
